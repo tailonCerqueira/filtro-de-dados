@@ -1,0 +1,53 @@
+/* Colocar rodapé no footer */
+
+html, body {
+    height: 100%;
+}
+
+#tudo {
+    min-height: 100%;	
+}
+
+* html #tudo {
+    height: 100%; /* hack para IE6 que trata height como min-height */
+}
+    
+#conteudo {
+    padding-bottom: 30px;
+}
+/* //////////////////////// */
+
+.text-center{
+    text-align: center;
+}
+
+.align-left{
+    float: left;
+}
+
+.full-width{
+    width: 100%;
+    display: block;
+}
+/* //////////////////////// */
+
+.container{
+    width: 976px;
+    margin: auto;
+}
+
+.col-2, .col-2{
+    float: left;
+}
+
+.col-2{
+    width: 50%;
+}
+
+/* //////////////////////// */
+
+#fotoPerfil{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
